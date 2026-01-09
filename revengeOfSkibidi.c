@@ -36,7 +36,7 @@ int main () {
 
     for(int i = 0; i< a-1; i++){
         for(int j = 0; j<a-i-1; j++){
-            int doS = 0;
+            int doS = 0; // swap flag
             int c1 = vowelCount(arr[j]);
             int c2 = vowelCount(arr[j+1]);
 
@@ -66,4 +66,5 @@ int main () {
 
 
     return 0;
+
 }
